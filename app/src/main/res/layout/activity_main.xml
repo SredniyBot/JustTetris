@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100"
+        android:id="@+id/gameLayout"
+        android:orientation="vertical"/>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:id="@+id/button2Layout">-->
+<!--        <ImageButton-->
+<!--            android:id="@+id/leftBtn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/left1"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:layout_weight="50"/>-->
+
+<!--        <ImageButton-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/right1"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:id="@+id/rightBtn"-->
+<!--            android:layout_weight="50"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:id="@+id/button1Layout">-->
+<!--        <ImageButton-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/mega_down"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:id="@+id/mega_downBtn"-->
+<!--            android:layout_weight="33"/>-->
+<!--        <ImageButton-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/down"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:id="@+id/downBtn"-->
+<!--            android:layout_weight="34"/>-->
+<!--        <ImageButton-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/rotate"-->
+<!--            android:id="@+id/rotateBtn"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:scaleType="centerInside"-->
+<!--            android:layout_weight="33"/>-->
+<!--    </LinearLayout>-->
+
+</LinearLayout>
+
+
