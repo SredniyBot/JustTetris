@@ -15,9 +15,7 @@ public class ResultActivity extends AppCompatActivity {
         Intent intent=getIntent();
         int count= intent.getIntExtra("count",0);
         TextView view=findViewById(R.id.resultText);
-        if(count>=300) {
-            view.setText("Поздравляем, ваш счет составляет: "+count+"\n91A642");
-        }else view.setText("Поздравляем, ваш счет составляет: "+count);
+        view.setText("Поздравляем, ваш счет составляет: "+count);
 
     }
 }

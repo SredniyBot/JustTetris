@@ -10,7 +10,7 @@ import androidx.annotation.Nullable;
 
 public class SoundService extends Service {
 
-    private MediaPlayer music;
+    private static MediaPlayer music;
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
@@ -22,6 +22,11 @@ public class SoundService extends Service {
     public void onCreate() {
         music=MediaPlayer.create(this, R.raw.nem);
 
+    }
+
+    public static void stop(){
+        if (music.isPlaying())
+        music.stop();
     }
 
     @Override

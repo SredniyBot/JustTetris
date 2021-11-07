@@ -116,11 +116,11 @@ public class Field {
     }
 
     public void megaMoveY(){
-        if(!isStopped()) {
-            vibrator.vibrate(40);
-            while (!down()) ;
-            down();
-        }
+//        if(!isStopped()) {
+//            vibrator.vibrate(40);
+//            while (!down()) ;
+//            down();
+//        }
     }
 
     public void rotate() {
@@ -135,6 +135,7 @@ public class Field {
     public void checkEndOfGame(){
         if(!map.canInjectNewFigure()) {
             stop=true;
+            SoundService.stop();
             Intent intent = new Intent(context, ResultActivity.class);
             intent.putExtra("count", Count.getNumber());
             context.startActivity(intent);
@@ -143,7 +144,7 @@ public class Field {
 
 
     private boolean isStopped(){
-        return pause.isPaused()&&stop;
+        return stop||pause.isPaused();
     }
 
 }

@@ -22,9 +22,6 @@ public class MainActivity extends AppCompatActivity  {
         LinearLayout gameLayout = findViewById(R.id.gameLayout);
         gameLayout.addView(gameView);
 
-
-
     }
-
 
 }
